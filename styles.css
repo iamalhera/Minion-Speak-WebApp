@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    font-family: 'Pacifico', cursive;
+    --primary-color : #eac90a ;
+}
+.navigation{
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    border-bottom-left-radius: 2rem;
+}
+.navigation img {
+    position: absolute;
+    max-width: 50px;
+    padding: 1 0rem ;
+}
 #txt-input{
     width: 80%;
     border: 1px solid black;
