@@ -12,22 +12,36 @@
 <body>
     <nav>
         <div class="navigation">
-            Minion Speak <img src="/images/minion-image.png" alt="minion">
+            Minion speak <img src="/images/minion-image.png" alt="minion">
         </div>
 
     </nav>
 
-    <textarea id="txt-input" placeholder="this is a text box"></textarea>
-    
-    <div id="btn-placeholder">
-        <button id="btn-translate">
-            Translate
-        </button>
+
+    <div class="body-main">
+        <textarea id="txt-input" placeholder="Enter english words/sentence to minions language"></textarea>
+        <div id="btn-placeholder">
+            <button id="btn-translate">
+                <strong>Translate</strong>
+            </button>
+        </div>
+        <br>
+        <div style="text-align: center; font-size: large;">Translation will come here 👇</div>
+        <div id=output></div>
     </div>
 
-    <div>Output will come here 👇</div>
 
-    <div id=output></div>
+
+    <footer>
+        <div id="div-footer">
+            <h3>About</h3>
+            <p>Are you a fan of Minions? Did you know that the gibberish they say is an actual language. Use the
+                translator
+                to convert your text from english to<br>Minion language.</p>
+            <div>Made by Gentle Shah</div>
+        </div>
+    </footer>
+
 
     <script src="app.js" type="text/javascript"></script>
 </body>
